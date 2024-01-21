@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titans-tech</title>
+    <link rel="stylesheet" href="./src/Components/custom-styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/titans tech-01.jpg"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <style>
+      @media screen and (min-width: 769px) {
+        .custom-img {
+          width: 98vw; /* Make sure the image takes up the full width of its container */
+          height: auto;
+          position: relative;
+          background-repeat: no-repeat;
+          margin-left: -2.5%;
+          margin-top: 10%; /* Maintain the image's aspect ratio */
+          text-align: center;
+
+          background-image: url("./src/assets/large.jpg");
+          background-size: cover; /* Ensure the background image covers the entire container */
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .custom-img {
+          background-image: url("./src/assets/5124558.jpg");
+          width: 98vw; /* Make sure the image takes up the full width of its container */
+          height: auto;
+          margin-left: -10%; /* Maintain the image's aspect ratio */
+          text-align: center;
+          background-repeat: no-repeat;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- <script>
+      var toggleBtn = document.getElementById("toggle");
+      var collapseMenu = document.getElementById("collapseMenu");
+
+      function handleClick() {
+        // Toggle the display property on each click
+        collapseMenu.style.display =
+          collapseMenu.style.display === "none" ? "block" : "none";
+      }
+
+      function resetHamburgerMenu() {
+        // Reset the hamburger menu
+        collapseMenu.style.display = "none";
+      }
+
+      if (toggleBtn) {
+        toggleBtn.addEventListener("click", handleClick);
+      }
+
+      // Add event listener for route changes using hashchange
+      window.addEventListener("hashchange", resetHamburgerMenu);
+    </script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  </body>
+</html>

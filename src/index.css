@@ -1,0 +1,18 @@
+/* styles/index.css */
+
+/* Import third-party CSS first */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css");
+
+/* Then import Tailwind CSS */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Your custom styles go here */
+/* ... */
+#mega-menu-full-dropdown,
+#mega-menu-full-dropdown-2,
+#mega-menu-full-dropdown-3 {
+  max-height: 100vh; /* Set a maximum height for the mega menu */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
